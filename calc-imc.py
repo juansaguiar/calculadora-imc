@@ -3,9 +3,10 @@ while True:
   print(" ")
 
   # VALORES
-
+  print('Ex: 1.76')
   altura = float(input("INFORME UMA ALTURA: "))
   print(" ")
+  print('Ex: 73.5')
   peso = float(input("INFORME UM PESO: "))
   print(" ")
 
@@ -40,10 +41,8 @@ while True:
   print(" ")
   nova_calc = input("1/ NOVAMENTE 2/ SAIR: ")
   if nova_calc == '1':
-    os.system('cls')
 
   elif nova_calc == '2':
 
     print("ATÉ MAIS")
-    os.system('cls')
     break
